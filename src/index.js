@@ -1,14 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import ToDo from './ToDo';
 import reportWebVitals from './reportWebVitals';
-const list=["Nitya","Nityananda"];
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ToDo data={list}/>
+    <ToDo />
   </React.StrictMode>
 );
 
